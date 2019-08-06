@@ -19,7 +19,8 @@ namespace _0403A1Zahlenraten
 
             do
             {
-                Console.WriteLine("yessir?");
+                Console.WriteLine();
+                Console.Write("yessir? ");
                 r = int.Parse(Console.ReadLine());
                 if (r > z)
                     Console.WriteLine("zu hoch");
